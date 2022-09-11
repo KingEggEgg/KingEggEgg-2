@@ -1,0 +1,202 @@
+.middle-section {
+    flex: 1;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 56px;
+}
+
+.story-reel-room {
+    display: block;
+    width: 500px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 5px 10px 10px 10px;
+    background-color: white;
+}
+
+.story-reel-room-button {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+
+}
+
+
+.story-reel-room-button button {
+    font-weight: 500px;
+    font-size: 15px;
+    border: none;
+    width: 156px;
+    height: 60px;
+    padding: 0;
+
+}
+
+.story-button-box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-button,
+.reels-button,
+.rooms-button {
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.15s, border-radius 0.15s;
+    position: relative;
+}
+
+.blue-underline {
+    position: absolute;
+    background-color: rgb(24, 118, 242);
+    bottom: 0px;
+    right: 2;
+    left: 2;
+    height: 3px;
+    width: 140px;
+    opacity: 0;
+}
+
+.story-button:hover,
+.reels-button:hover,
+.rooms-button:hover {
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+}
+
+.story-button:active,
+.reels-button:active,
+.rooms-button:active {
+    background-color: white;
+    color: rgb(24, 118, 242);
+    opacity: 1;
+}
+
+.story-box {
+    display: flex;
+    justify-content: center;
+}
+
+.story img,
+.story1 img {
+    width: 112.5px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin: 15px 5px 5px 5px;
+}
+
+.story {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.story1 {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+
+}
+
+.story button {
+    padding: 0;
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    color: rgb(19, 95, 195);
+    border: 4px solid rgb(24, 118, 242);
+    height: 30px;
+    width: 30px;
+    font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.story1 .doggy {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 4px solid rgb(24, 118, 242);
+    height: 32px;
+    width: 32px;
+    font-weight: 700;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.middle-section-second {
+    padding: 10px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    background-color: white;
+    width: 500px;
+}
+
+.status-bar {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.status-bar img {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    border: none;
+    object-fit: cover;
+    object-position: center;
+    margin: 7px 5px 7px 0px;
+}
+
+.status-bar input {
+    flex: 1;
+    margin: 7px 0px 7px 0px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.status-buttons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.status-button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.15s, border-radius 0.15s;
+}
+
+.status-button:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 12px;
+}
+
+.status-button img {
+    margin: 0px 8px 0px 8px;
+    height: 24px;
+    width: 24px;
+}
+
+
+.status-button p {
+    margin: 0;
+}

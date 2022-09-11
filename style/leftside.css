@@ -1,0 +1,110 @@
+.left-section {
+    width: 360px;
+    font-size: 16px;
+    top: 56px;
+    left: 0px;
+}
+
+.left-section-first {
+    border-bottom: 1px solid lightgray;
+}
+
+.left-side-button img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left-side-button p {
+    font-weight: 600;
+}
+
+.left-side-button {
+    height: 50px;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 2px;
+    border: none;
+    transition: background-color 0.15s, border-radius 0.15s;
+    cursor: pointer;
+}
+
+.left-side-button:hover {
+    background-color: rgb(225,225,225);
+    border-radius: 10px;
+}
+
+.left-profile-picture {
+    border-radius: 20px;
+}
+
+.group-shorcut img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.see-more-button img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.left-section-second div{
+    height: 50px;
+}
+
+.shorcuts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shorcuts p {
+    color: gray;
+    margin-left: 10px;
+}
+
+.shorcuts button {
+    border: none;
+    color: rgb(62, 93, 214);
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.shorcuts button:hover {
+    opacity: 1;
+}
+
+.group-shorcut {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-section-second {
+    height: 50px;
+    width: 300px;
+}
+
+.see-more-button button{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.group-shorcut:hover,
+.see-more-button:hover {
+    background-color: rgb(225,225,225);
+    border-radius: 10px;
+}
